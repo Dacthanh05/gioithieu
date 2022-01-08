@@ -4,7 +4,7 @@ body {
     background-color: rgb(109, 228, 40);
 }
 canvas {
-    background-color: rgb(247, 112, 146);
+    background-color: rgb(51, 202, 207);
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -37,7 +37,7 @@ body, html{height: 100%;}
 }
 
 .container1{
-  color: rgb(38, 117, 236);
+  color: rgb(42, 211, 98);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -50,7 +50,7 @@ body, html{height: 100%;}
 }
 
 .container2{
-  color: rgb(91, 182, 235);
+  color: rgb(45, 171, 180);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -138,7 +138,7 @@ body {
   text-align: center;
   min-height: 100vh;
   overflow: hidden;
-  background: #eb82eb;
+  background: #458867;
   font-family: 'Pacifico', cursive;
 } 
 
@@ -156,7 +156,7 @@ body {
 }
 
 body span {
-  color: rgb(15, 15, 15);
+  color: rgb(243, 39, 32);
   margin-top: 15px;
   font-size: 26px;
 }
@@ -204,8 +204,8 @@ svg {
 .heart {
   cursor: pointer;
   transition: all 0.2s cubic-bezier(.37,.33,.23,.85); 
-  stroke: #94f07d;
-  fill: #ee5173;
+  stroke: #a5e037;
+  fill: #f3577e;
   animation: decrease 0.4s cubic-bezier(.37,.33,.23,.85) paused;
   align-items: center;
 }
@@ -214,13 +214,13 @@ svg {
   stroke-opacity: 0.5;
   fill-opacity: 0.3;
   stroke-width: 1;
-  fill: #51c2e4;
+  fill: #da116f;
 }
 
 .heart-filled {
   stroke: #ebb44f;
   transition: all 0.4s cubic-bezier(.37,.33,.23,.85); 
-  fill: #e7446d;
+  fill: #df5c5c;
   animation: increase 0.4s cubic-bezier(.37,.33,.23,.85); 
 
 
@@ -230,7 +230,7 @@ svg {
   stroke-opacity: 0.5;
   fill-opacity: 0.8;
   stroke-width: 1;
-  fill: #f05cbe;  
+  fill: #f03333;  
 }
 
 .save {
